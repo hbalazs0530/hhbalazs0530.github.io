@@ -1,32 +1,83 @@
 <!DOCTYPE html>
 <html lang="hu">
-<head>
-    <meta charset="UTF-8">
-    <title></title>
-    <link href="/bootstrap/bootstrap.min.css" rel="stylesheet">
-    <link href="/bootstrap/bootstrap-reboot.min.css" rel="stylesheet">
-    <link href="/bootstrap/bootstrap-grid.min.css" rel="stylesheet">
-    <link href="css/stílus.css" rel="stylesheet">
-</head>
-<body>
-    <script src="js/alap.js"></script>
-        <header class="header">
-            <p class="udvozlo">Üdvözlünk a Balatonon</p>
-            <nav>
-            <ul>
-                <li><a href="index.html">Főoldal</a></li>
-                <li><a href="hajok.html">Hajók</a></li>
-                <li><a href="">Hajóút-tervezés</a></li>
-                <li><a href="">Kapcsolat</a></li>
-            </ul>
-        </nav>
-        </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
 
-    <div class="fooldal">  
-    </div>    
+    <title>Balatoni hajózás</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+    </style>
+  </head>
 
-    <div class="footer">
-        <p>Készitette: Hosszú Ádám és Heinrich Balázs</p>
-      </div>
-</body>
+  <body>
+    <section id="kezdo">
+      <header>
+        <a href="#"><img src="images/logo.png" alt="" /></a>
+        <ul id="menu">
+          <li><a href="#kezdo">Kezdőlap</a></li>
+          <li><a href="#rolunk">Rólunk</a></li>
+          <li><a href="#kalkulator">Kalkulátor</a></li>
+          <li><a href="#arak">Árak</a></li>
+          <li><a href="#elerhetoseg">Források</a></li>
+        </ul>
+      </header>
+      <h1>Balatoni hajózás</h1>
+      <img src="images/terkep.png" alt="térkép" id="terkep" />
+    </section>
+    <section id="rolunk">
+      <h2 id="rolunkcim">Rólunk</h2>
+      <p id="rolunkp">A Balatoni Hajózási Zrt. a menetrendi hajózás révén összekötő szerepet tölt be a régió turisztikai életében. A települések között közlekedő menetrendi hajóink igénybevételével ugyanis utasaink nem csupán egy kellemes utazáson vehetnek részt, hanem egyúttal eljuthatnak a legtöbb élményt nyújtó Balaton parti települések döntő többségére is, hiszen Az élményhez HAJÓ visz! A hagyományos tömegközlekedéstől eltérően, utasaink kellemes időtöltésben részesülnek a települések között közlekedő menetrendi hajóink fedélzetén, hiszen nem csak az úti cél elérése a fontos, maga az utazás is emlékezetes és izgalmas része a kirándulásnak. Utasaink kényelmét 2016 nyarától hajóinkon WI-FI szolgáltatás is szolgálja!</p>
+    </section>
+    <section id="kalkulator">
+      <h2>This Is Product</h2>
+      <form id="user-form">
+        <label for="kikotoindul">Honnan:</label>
+        <select id="helyek" name="kikotoindul">
+          <option value="alsoors">Alsóörs</option>
+          <option value="badacsony">Badacsony</option>
+          <option value="balatonalmadi">Balatonalmádi</option>
+          <option value="balatonfoldvar">Balatonföldvár</option>
+          <option value="balatonfured">Balatonfüred</option>
+          <option value="balatongyorok">Balatongyörök</option>
+          <option value="balatonlelle">Balatonlelle</option>
+          <option value="balatonmariafurdo">Balatonmáriafürdő</option>
+          <option value="balatonszemes">Balatonszemes</option>
+          <option value="fonyod">Fonyód</option>
+          <option value="keszthely">Keszthely</option>
+          <option value="revfulop">Révfülöp</option>
+          <option value="siofok">Siófok</option>
+          <option value="szigliget">Szigliget</option>
+          <option value="tihany">Tihany</option>
+          <option value="tihanyrev">Tihanyrév</option></select
+        ><br />
+        <label for="kikotoerkezik">Hová:</label>
+        <select id="helyek" name="kikotoerkezik">
+          <option value="alsoors">Alsóörs</option>
+          <option value="badacsony">Badacsony</option>
+          <option value="balatonalmadi">Balatonalmádi</option>
+          <option value="balatonfoldvar">Balatonföldvár</option>
+          <option value="balatonfured">Balatonfüred</option>
+          <option value="balatongyorok">Balatongyörök</option>
+          <option value="balatonlelle">Balatonlelle</option>
+          <option value="balatonmariafurdo">Balatonmáriafürdő</option>
+          <option value="balatonszemes">Balatonszemes</option>
+          <option value="fonyod">Fonyód</option>
+          <option value="keszthely">Keszthely</option>
+          <option value="revfulop">Révfülöp</option>
+          <option value="siofok">Siófok</option>
+          <option value="szigliget">Szigliget</option>
+          <option value="tihany">Tihany</option>
+          <option value="tihanyrev">Tihanyrév</option></select
+        ><br />
+        <input type="date" />
+        <input type="button" value="Számítás" id="szamol" />
+      </form>
+    </section>
+    <section id="arak"><h2>This Is Pricing</h2></section>
+    <section id="elerhetoseg"><h2>This Is Contact</h2></section>
+  </body>
 </html>
