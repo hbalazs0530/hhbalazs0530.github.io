@@ -85,7 +85,7 @@ section {
 }
 #rolunkp {
   font-family: "Helvetica Neue", sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   line-height: 1;
   text-align: left;
@@ -94,6 +94,7 @@ section {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
+  padding-top: 200px;
 }
 h1,
 h2 {
