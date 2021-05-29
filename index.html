@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="style.css" />
 
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Balatoni hajózás</title>
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
@@ -29,12 +30,11 @@
       <img src="images/terkep.png" alt="térkép" id="terkep" />
     </section>
     <section id="rolunk">
-        <h2 id="rolunkcim">Rólunk</h2>
+      <h2 id="rolunkcim">Rólunk</h2>
 
       <p id="rolunkp">A Balatoni Hajózási Zrt. a menetrendi hajózás révén összekötő szerepet tölt be a régió turisztikai életében. A települések között közlekedő menetrendi hajóink igénybevételével ugyanis utasaink nem csupán egy kellemes utazáson vehetnek részt, hanem egyúttal eljuthatnak a legtöbb élményt nyújtó Balaton parti települések döntő többségére is, hiszen Az élményhez HAJÓ visz! A hagyományos tömegközlekedéstől eltérően, utasaink kellemes időtöltésben részesülnek a települések között közlekedő menetrendi hajóink fedélzetén, hiszen nem csak az úti cél elérése a fontos, maga az utazás is emlékezetes és izgalmas része a kirándulásnak. Utasaink kényelmét 2016 nyarától hajóinkon WI-FI szolgáltatás is szolgálja!</p>
-    
     </section>
-  
+
     <section id="kalkulator">
       <h2>This Is Product</h2>
       <form id="user-form">
@@ -80,7 +80,89 @@
         <input type="button" value="Számítás" id="szamol" />
       </form>
     </section>
-    <section id="arak"><h2>This Is Pricing</h2></section>
+    <section id="arak">
+      <h2>This Is Pricing</h2>
+      <div class="w3-container">
+        <div class="center">
+          <button onclick="megnyitas()" class="w3-button w3-black">Árlista megnyitása</button>
+        </div>
+        <div id="egy" class="w3-modal">
+          <div class="w3-modal-content">
+            <div class="w3-container">
+              <span onclick="bezar()" class="w3-button w3-display-topright">&times;</span>
+              <h3>Jegytípusok</h3>
+              <table>
+                <tr>
+                  <th>Jegytípus</th>
+                  <th>Teljes árú jegy</th>
+                  <th>Családi jegy</th>
+                </tr>
+                <tr>
+                  <td>I. Díjzóna</td>
+                  <td>1600 ft</td>
+                  <td>4320 ft</td>
+                </tr>
+                <tr>
+                  <td>II. Díjzóna</td>
+                  <td>1800 ft</td>
+                  <td>4680 ft</td>
+                </tr>
+                <tr>
+                  <td>III. Díjzóna</td>
+                  <td>2000 ft</td>
+                  <td>5400 ft</td>
+                </tr>
+                <tr>
+                  <td>Kerékpár</td>
+                  <td>1000 ft</td>
+                  <td>1000 ft</td>
+                </tr>
+                <tr>
+                  <td>Kerékpár gyermek</td>
+                  <td>500 ft</td>
+                  <td>500 ft</td>
+                </tr>
+                <tr>
+                  <td>Kutyajegy</td>
+                  <td>500 ft</td>
+                  <td>500 ft</td>
+                </tr>
+                <tr>
+                  <td>Díjmentes utazás</td>
+                  <td>0 ft</td>
+                  <td>0 ft</td>
+                </tr>
+              </table>
+              <p>A fenti díjak Ft-ban értendők, és tartalmazzák az ÁFA-t.</p>
+              <strong>Járatainkon a hajók befogadóképességének függvényében és a forgalmi viszonyoknak megfelelően, a kerékpárok szállítását csak korlátozottan tudjuk biztosítani.</strong>
+              <p>Díjmentes utazásra jogosultak:</p>
+              <ul>
+                <li>Hadirokkant és hadiözvegy, kísérőjük az OOSZI szakvéleménye alapján</li>
+                <li>Felnőtt kíséretében utazó gyermek 4 éves koráig</li>
+                <li>A MÁV-START Zrt. és a Balatoni Hajózási Zrt. dolgozója, nyugdíjasa, arcképes igazolvány alapján</li>
+                <li>GYSEV igazolvány alapján</li>
+                <li>Közlekedésbiztonsági Szervezet munkatársai által kibocsátott egy-, és kétsávos piros színű okmányok alapján</li>
+                <li>Csoportos utazás esetén 20 fő után 1 fő kísérő</li>
+              </ul>
+              <p>Családi jegy:</p>
+              <ul>
+                <li>2 teljes árú felnőtt + 2 gyermek (4-14 éves korig)</li>
+              </ul>
+              <h4>Fizetési módok:</h4>
+              <ul>
+                <li>készpénz</li>
+                <li>bankkártya</li>
+                <li>SZÉP kártya</li>
+                <li>BAHART Ajándékkártya és BAHART Joker kártya</li>
+              </ul>
+              <p>Az árváltoztatás jogát a Társaság fenntartja!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section id="elerhetoseg"><h2>This Is Contact</h2></section>
+
+    <script src="js/alap.js"></script>
   </body>
 </html>

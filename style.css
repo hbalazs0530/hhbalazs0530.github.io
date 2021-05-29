@@ -26,13 +26,15 @@ header {
 /*css reset*/
 
 header {
+  backdrop-filter: blur(3px);
+  height: 150px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 20px 50px;
   align-items: center;
   position: fixed;
-  z-index: 999;
+  z-index: 1;
 }
 #menu li {
   list-style: none;
@@ -81,7 +83,7 @@ section {
 }
 
 #rolunkcim {
-  top: 40%;
+  top: 35%;
 }
 #rolunkp {
   font-family: "Helvetica Neue", sans-serif;
@@ -94,7 +96,7 @@ section {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
-  padding-top: 200px;
+  padding-top: 250px;
 }
 h1,
 h2 {
@@ -110,4 +112,41 @@ h2 {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
+}
+
+#menu li a:hover {
+  text-shadow: 2px 2px 5px rgb(4, 0, 255);
+}
+h3 {
+  font-size: 40px;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
 }
