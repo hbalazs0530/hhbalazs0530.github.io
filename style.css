@@ -127,8 +127,7 @@ table {
   width: 100%;
 }
 
-td,
-th {
+#jegytipusok {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 10px;
@@ -151,15 +150,57 @@ tr:nth-child(even) {
   height: 200px;
 }
 #elerhetosegcim{
-  top: 35%;
+  top: 20%;
 }
 #kapcsolatok{
     width: 40px;
-    padding-left: 33%;
-    padding-right: 67%;
-    padding-top: 470px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 725px;
 }
 
 #kepmargin{
   margin-top: 10px;
 }
+
+#tabalzat{
+  background-color: #f9968b;
+  border: 0px;
+
+}
+
+#elerhetosegszoveg{
+  padding-top: 20px;
+}
+#elerhetosegszoveg2{
+  padding-top: 20px;
+}
+#elerhetosegszoveg3{
+  padding-top: 20px;
+}
+#elerhetosegszoveg4{
+  padding-top: 20px;
+}
+#elerhetosegszoveg5{
+  padding-top: 20px;
+}
+
+.map-container-4{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  }
+  .map-container-4 iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }
+
+  #terkep{
+   padding-left: 50%;
+   padding-right: 50%;
+   width: 600px;
+  }
