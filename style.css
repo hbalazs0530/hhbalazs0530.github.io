@@ -150,3 +150,16 @@ tr:nth-child(even) {
   align-items: center;
   height: 200px;
 }
+#elerhetosegcim{
+  top: 35%;
+}
+#kapcsolatok{
+    width: 40px;
+    padding-left: 33%;
+    padding-right: 67%;
+    padding-top: 470px;
+}
+
+#kepmargin{
+  margin-top: 10px;
+}
