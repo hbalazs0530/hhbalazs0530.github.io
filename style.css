@@ -199,8 +199,15 @@ tr:nth-child(even) {
   position:absolute;
   }
 
-  #terkep{
+  .terkep{
    padding-left: 50%;
    padding-right: 50%;
    width: 600px;
   }
+
+  .maps {
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) }
