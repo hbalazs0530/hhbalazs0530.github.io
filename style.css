@@ -26,7 +26,7 @@ header {
 /*css reset*/
 
 header {
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(0px);
   height: 150px;
   width: 100%;
   display: flex;
@@ -58,23 +58,23 @@ section {
 }
 
 #kezdo {
-  background-color: #2cced2;
+  background-color: #A5B6C6;
 }
 
 #rolunk {
-  background-color: #76cdcd;
+  background-color: #627C95;
 }
 
 #kalkulator {
-  background-color: #26474e;
+  background-color: #385D77;
 }
 
 #arak {
-  background-color: #f27348;
+  background-color: #09364D;
 }
 
 #elerhetoseg {
-  background-color: #f9968b;
+  background-color: #012130;
 }
 
 #terkep {
@@ -83,16 +83,16 @@ section {
 }
 
 #rolunkcim {
-  top: 35%;
+  top: 25%;
 }
 #rolunkp {
   font-family: "Helvetica Neue", sans-serif;
   font-size: 25px;
   font-weight: bold;
   line-height: 1;
-  text-align: left;
+  text-align: justify;
   position: absolute;
-  top: 50%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
@@ -156,7 +156,7 @@ tr:nth-child(even) {
     width: 40px;
     float: left;
     padding-left: 10px;
-    padding-top: 650px;
+    padding-top: 625px;
 }
 
 #kepmargin{
@@ -164,25 +164,30 @@ tr:nth-child(even) {
 }
 
 #tabalzat{
-  background-color: #f9968b;
+  background-color: #012130;
   border: 0px;
 
 }
 
 #elerhetosegszoveg{
   padding-top: 20px;
+  color: #fff;
 }
 #elerhetosegszoveg2{
   padding-top: 20px;
+  color: #fff;
 }
 #elerhetosegszoveg3{
   padding-top: 20px;
+  color: #fff;
 }
 #elerhetosegszoveg4{
   padding-top: 20px;
+  color: #fff;
 }
 #elerhetosegszoveg5{
   padding-top: 20px;
+  color: #fff;
 }
 
 .map-container-4{
@@ -211,3 +216,23 @@ tr:nth-child(even) {
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%) }
+
+        .korhinta{
+          padding-top: 425px;
+         }
+
+         .galeria{
+          padding-left: 775px;
+          padding-right: 951px;
+          padding-top: 650px;
+          width: 350px;
+          height: auto;
+          
+           
+         }
+
+         .galeriakep{
+          border-radius: 50%;
+          border: 5px solid #fff;
+          
+         }

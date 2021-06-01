@@ -30,46 +30,46 @@ function bezar() {
   $("egy").style.display = "none";
 }
 function link() {
-  $("elerhetosegszoveg").style.color= "purple";
+  $("elerhetosegszoveg").style.color= "#aadaff";
   $("elerhetosegszoveg").style.fontSize= "25px";
 }
 function link2() {
-  $("elerhetosegszoveg").style.color= "black";
+  $("elerhetosegszoveg").style.color= "white";
   $("elerhetosegszoveg").style.fontSize= "100%";
 }
 
 function link3() {
-  $("elerhetosegszoveg2").style.color= "purple";
+  $("elerhetosegszoveg2").style.color= "#aadaff";
   $("elerhetosegszoveg2").style.fontSize= "25px";
 }
 function link4() {
-  $("elerhetosegszoveg2").style.color= "black";
+  $("elerhetosegszoveg2").style.color= "white";
   $("elerhetosegszoveg2").style.fontSize= "100%";
 }
 
 function link5() {
-  $("elerhetosegszoveg3").style.color= "purple";
+  $("elerhetosegszoveg3").style.color= "#aadaff";
   $("elerhetosegszoveg3").style.fontSize= "25px";
 }
 function link6() {
-  $("elerhetosegszoveg3").style.color= "black";
+  $("elerhetosegszoveg3").style.color= "white";
   $("elerhetosegszoveg3").style.fontSize= "100%";
 }
 
 function link7() {
-  $("elerhetosegszoveg4").style.color= "purple";
+  $("elerhetosegszoveg4").style.color= "#aadaff";
   $("elerhetosegszoveg4").style.fontSize= "25px";
 }
 function link8() {
-  $("elerhetosegszoveg4").style.color= "black";
+  $("elerhetosegszoveg4").style.color= "white";
   $("elerhetosegszoveg4").style.fontSize= "100%";
 }
 
 function link9() {
-  $("elerhetosegszoveg5").style.color= "purple";
+  $("elerhetosegszoveg5").style.color= "#aadaff";
   $("elerhetosegszoveg5").style.fontSize= "25px";
 }
 function link10() {
-  $("elerhetosegszoveg5").style.color= "black";
+  $("elerhetosegszoveg5").style.color= "white";
   $("elerhetosegszoveg5").style.fontSize= "100%";
 }
