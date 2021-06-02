@@ -20,6 +20,8 @@ function init() {
   $("elerhetosegszoveg5").addEventListener("mouseover",link9,false);
   $("elerhetosegszoveg5").addEventListener("mouseout",link10,false);
 
+  $("gomba").addEventListener("click",foglalas,false);
+
   
   
 }
@@ -72,4 +74,7 @@ function link9() {
 function link10() {
   $("elerhetosegszoveg5").style.color= "white";
   $("elerhetosegszoveg5").style.fontSize= "100%";
+}
+function foglalas(){
+    $("atirando").innerHTML="XDDDDDDDDDDDDD";
 }

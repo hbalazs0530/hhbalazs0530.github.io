@@ -234,20 +234,21 @@ tr:nth-child(even) {
   padding-top: 425px;
 }
 
-.galeria {
+.galeria{
   padding-left: 775px;
   padding-right: 951px;
   padding-top: 650px;
   width: 350px;
   height: auto;
-}
+  
+   
+ }
 
-.galeriakep {
-  width: 210px;
-  height: auto;
+ .galeriakep{
   border-radius: 50%;
   border: 5px solid #fff;
-}
+  
+ }
 
 .w3-container {
   margin: 10px;
@@ -258,3 +259,11 @@ form {
   top: 70%;
   left: 20%;
 }
+ 
+  #idopontigazitas{
+    top: 25%;
+  }
+
+  #gyerunkigazitas{
+    top: 50%;
+  }
