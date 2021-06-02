@@ -318,5 +318,6 @@ form {
 }
 
 #gyerunkigazitas {
+  text-shadow: rgb(223, 158, 54) 1px 0 10px;
   top: 50%;
 }
