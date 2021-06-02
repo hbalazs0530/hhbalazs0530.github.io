@@ -19,7 +19,8 @@ span,
 ul,
 li,
 a,
-header {
+header,
+form {
   box-sizing: border-box;
 }
 
@@ -56,21 +57,27 @@ section {
   height: 100vh;
   position: relative;
 }
-
+.customselect {
+  position: absolute;
+  background-color: DodgerBlue;
+}
+label {
+  font-size: 20px;
+}
 #kezdo {
-  background-color: #A5B6C6;
+  background-color: #a5b6c6;
 }
 
 #rolunk {
-  background-color: #627C95;
+  background-color: #627c95;
 }
 
 #kalkulator {
-  background-color: #385D77;
+  background-color: #385d77;
 }
 
 #arak {
-  background-color: #09364D;
+  background-color: #09364d;
 }
 
 #elerhetoseg {
@@ -149,95 +156,105 @@ tr:nth-child(even) {
   align-items: center;
   height: 200px;
 }
-#elerhetosegcim{
+#utazascim {
+  top: 40%;
+}
+#elerhetosegcim {
   top: 20%;
 }
-#kapcsolatok{
-    width: 40px;
-    float: left;
-    padding-left: 10px;
-    padding-top: 625px;
+#kapcsolatok {
+  width: 40px;
+  float: left;
+  padding-left: 10px;
+  padding-top: 625px;
 }
 
-#kepmargin{
+#kepmargin {
   margin-top: 10px;
 }
 
-#tabalzat{
+#tabalzat {
   background-color: #012130;
   border: 0px;
-
 }
 
-#elerhetosegszoveg{
+#elerhetosegszoveg {
   padding-top: 20px;
   color: #fff;
 }
-#elerhetosegszoveg2{
+#elerhetosegszoveg2 {
   padding-top: 20px;
   color: #fff;
 }
-#elerhetosegszoveg3{
+#elerhetosegszoveg3 {
   padding-top: 20px;
   color: #fff;
 }
-#elerhetosegszoveg4{
+#elerhetosegszoveg4 {
   padding-top: 20px;
   color: #fff;
 }
-#elerhetosegszoveg5{
+#elerhetosegszoveg5 {
   padding-top: 20px;
   color: #fff;
 }
 
-.map-container-4{
-  overflow:hidden;
-  padding-bottom:56.25%;
-  position:relative;
-  height:0;
-  }
-  .map-container-4 iframe{
-  left:0;
-  top:0;
-  height:100%;
-  width:100%;
-  position:absolute;
-  }
+.map-container-4 {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-container-4 iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
 
-  .terkep{
-   padding-left: 50%;
-   padding-right: 50%;
-   width: 600px;
-  }
+.terkep {
+  padding-left: 50%;
+  padding-right: 50%;
+  width: 600px;
+}
 
-  .maps {
-    position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
-        border: 5px solid #fff;
-        border-radius: 5px;
-        box-shadow: rgb(54, 209, 223) 1px 0 10px; 
-      }
-        
+.maps {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid #fff;
+  border-radius: 5px;
+  box-shadow: rgb(54, 209, 223) 1px 0 10px;
+}
 
-        .korhinta{
-          padding-top: 425px;
-         }
+.korhinta {
+  padding-top: 425px;
+}
 
-         .galeria{
-          padding-left: 775px;
-          padding-right: 951px;
-          padding-top: 650px;
-          width: 350px;
-          height: auto;
-          
-           
-         }
+.galeria {
+  padding-left: 775px;
+  padding-right: 951px;
+  padding-top: 650px;
+  width: 350px;
+  height: auto;
+}
 
-         .galeriakep{
-          border-radius: 50%;
-          border: 5px solid #fff;
-          
-         }
+.galeriakep {
+  width: 210px;
+  height: auto;
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+
+.w3-container {
+  margin: 10px;
+}
+
+form {
+  position: absolute;
+  top: 70%;
+  left: 20%;
+}
