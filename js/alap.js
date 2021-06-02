@@ -28,14 +28,40 @@ function megnyitas() {
 function bezar() {
   $("egy").style.display = "none";
 }
+
 function helyszamolas() {
-  let a = $("indulas");
-  let indulas = a.options[a.selectedIndex].text;
-  let b = $("erkezes");
-  let erkezes = b.options[b.selectedIndex].text;
-  let result = indulas + " kikötőből ma nem indul hajó " + erkezes + " felé a veszélyhelyzet miatt.";
+  let elsoZona = ["Alsóörs", "Badacsony", "Balatonalmádi", "Balatonföldvár"];
+  let elsoAr = 2400;
+  let masodikZona = ["Balatonfüred", "Balatongyörök", "Balatonlelle", "Balatonmáriafürdő"];
+  let masodikAr = 2700;
+  let harmadikZona = ["Balatonszemes", "Fonyód", "Keszthely", "Révfülöp"];
+  let harmadikAr = 3000;
+  let negyedikZona = ["Siófok", "Szigliget", "Tihany", "Tihanyrév"];
+  let negyedikAr = 3500;
+  let indulasTemp = $("indulas");
+  let indulas = indulasTemp.options[indulasTemp.selectedIndex].text;
+
+  let erkezesTemp = $("erkezes");
+  let erkezes = erkezesTemp.options[erkezesTemp.selectedIndex].text;
+
+  let tempResult = negyedikAr;
+
+  if (elsoZona.includes(indulas)) {
+    tempResult = elsoAr;
+  } else if (masodikZona.includes(indulas)) {
+    tempResult = masodikAr;
+  } else if (harmadikZona.includes(indulas)) {
+    tempResult = harmadikAr;
+  }
+  let veszelyVanE = Math.floor(Math.random() * 4);
+  console.log(veszelyVanE);
+  let result = "Az utazás " + tempResult + " forintba fog kerülni egy személyre!";
+  let veszely = "Az adott kikőtőből vihar miatt nem indul hajó " + erkezes + " felé";
+  if (veszelyVanE == 0) result = veszely;
+
   window.alert(result);
 }
+
 function link() {
   $("elerhetosegszoveg").style.color = "#aadaff";
   $("elerhetosegszoveg").style.fontSize = "25px";
