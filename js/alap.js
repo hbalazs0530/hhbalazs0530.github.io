@@ -26,6 +26,9 @@ function init() {
 
   $("bezargomb").addEventListener("click", bezar, false);
 
+
+  
+
   
 }
 function megnyitas() {
