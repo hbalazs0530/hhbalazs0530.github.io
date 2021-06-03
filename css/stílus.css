@@ -19,16 +19,19 @@ body{
 }
 
 
+
 .udvozlo{
     color: cornflowerblue;
     margin-bottom: 10px;
 }
+
 
 .fooldal{
     margin-left: auto;
     margin-right: auto;
    
 }
+
 
 nav{
     float: none;
@@ -38,17 +41,20 @@ nav{
     transform: translate(-50%, -50%);
 }
 
+
 nav ul li{
     margin-top: 0px;
     float:left;
     margin-right: 60px;
 }
 
+
 nav ul li a{
     color: aliceblue;
     text-decoration: none;
     
 }
+
 
 .footer {
     position: fixed;
@@ -60,6 +66,7 @@ nav ul li a{
     text-align: right;
     font-family: 'Pattaya', sans-serif;
 }
+ 
 
 .hajok{
     width: 100%;
