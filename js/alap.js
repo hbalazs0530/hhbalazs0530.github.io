@@ -20,7 +20,13 @@ function init() {
   $("elerhetosegszoveg5").addEventListener("mouseover", link9, false);
   $("elerhetosegszoveg5").addEventListener("mouseout", link10, false);
 
-  // $("gomba").addEventListener("click", foglalas, false);
+  $("szamolasgomb").addEventListener("click", helyszamolas, false);
+
+  $("megnyitasgomb").addEventListener("click", megnyitas, false);
+
+  $("bezargomb").addEventListener("click", bezar, false);
+
+  
 }
 function megnyitas() {
   $("egy").style.display = "block";
